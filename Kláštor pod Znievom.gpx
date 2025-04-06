@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gpx version="1.1" creator="https://www.komoot.de" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>from Kláštor pod Znievom to Lazany</name>
+    <author>
+      <link href="https://www.komoot.de">
+        <text>komoot</text>
+        <type>text/html</type>
+      </link>
+    </author>
+  </metadata>
+  <trk>
+    <name>from Kláštor pod Znievom to Lazany</name>
+    <trkseg>
+      <trkpt lat="48.981589" lon="18.811082">
+        <ele>499.747334</ele>
+        <time>2025-04-01T10:30:12.980Z</time>
+      </trkpt>
+      <trkpt lat="48.982245" lon="18.811128">
+        <ele>499.747334</ele>
+        <time>2025-04-01T10:30:34.450Z</time>
+      </trkpt>
+      <trkpt lat="48.982562" lon="18.811228">
+        <ele>500.161385</ele>
+        <time>2025-04-01T10:30:46.447Z</time>
+      </trkpt>
+      <trkpt lat="48.982924" lon="18.811571">
+        <ele>502.337877</ele>
+        <time>2025-04-01T10:31:03.207Z</time>
+      </trkpt>
+      <trkpt lat="48.983650" lon="18.812448">
+        <ele>507.068188</ele>
+        <time>2025-04-01T10:31:36.251Z</time>
+      </trkpt>
+      <trkpt lat="48.983926" lon="18.812727">
+        <ele>508.759276</ele>
+        <time>2025-04-01T10:31:47.343Z</time>
+      </trkpt>
+      <trkpt lat="48.984322" lon="18.813022">
+        <ele>510.586438</ele>
+        <time>2025-04-01T10:32:01.029Z</time>
+      </trkpt>
+      <trkpt lat="48.984658" lon="18.813159">
+        <ele>512.000666</ele>
+        <time>2025-04-01T10:32:11.520Z</time>
+      </trkpt>
+      <trkpt lat="48.985345" lon="18.813427">
+        <ele>514.884068</ele>
+        <time>2025-04-01T10:32:32.848Z</time>
+      </trkpt>
+      <trkpt lat="48.985489" lon="18.813424">
+        <ele>515.469621</ele>
+        <time>2025-04-01T10:32:37.282Z</time>
+      </trkpt>
+      <trkpt lat="48.985844" lon="18.813210">
+        <ele>517.099599</ele>
+        <time>2025-04-01T10:32:48.918Z</time>
+      </trkpt>
+      <trkpt lat="48.986710" lon="18.812610">
+        <ele>521.354034</ele>
+        <time>2025-04-01T10:33:20.590Z</time>
+      </trkpt>
+      <trkpt lat="48.988933" lon="18.811263">
+        <ele>531.928532</ele>
+        <time>2025-04-01T10:34:39.701Z</time>
+      </trkpt>
+      <trkpt lat="48.989301" lon="18.811247">
+        <ele>533.539194</ele>
+        <time>2025-04-01T10:34:50.039Z</time>
+      </trkpt>
+      <trkpt lat="48.990027" lon="18.811451">
+        <ele>536.765145</ele>
+        <time>2025-04-01T10:35:12.376Z</time>
+      </trkpt>
+      <trkpt lat="48.990357" lon="18.811314">
+        <ele>538.259729</ele>
+        <time>2025-04-01T10:35:23.662Z</time>
+      </trkpt>
+      <trkpt lat="48.991122" lon="18.810604">
+        <ele>542.637906</ele>
+        <time>2025-04-01T10:35:56.198Z</time>
+      </trkpt>
+      <trkpt lat="48.992578" lon="18.810358">
+        <ele>550.401933</ele>
+        <time>2025-04-01T10:36:49.480Z</time>
+      </trkpt>
+      <trkpt lat="48.992821" lon="18.810257">
+        <ele>551.668977</ele>
+        <time>2025-04-01T10:36:58.366Z</time>
+      </trkpt>
+      <trkpt lat="48.993204" lon="18.809828">
+        <ele>554.060029</ele>
+        <time>2025-04-01T10:37:15.337Z</time>
+      </trkpt>
+      <trkpt lat="48.993898" lon="18.808358">
+        <ele>559.903740</ele>
+        <time>2025-04-01T10:37:56.465Z</time>
+      </trkpt>
+      <trkpt lat="48.994529" lon="18.807342">
+        <ele>564.059982</ele>
+        <time>2025-04-01T10:38:25.675Z</time>
+      </trkpt>
+      <trkpt lat="48.995182" lon="18.806829">
+        <ele>567.413883</ele>
+        <time>2025-04-01T10:38:49.795Z</time>
+      </trkpt>
+      <trkpt lat="48.996817" lon="18.805123">
+        <ele>575.398200</ele>
+        <time>2025-04-01T10:39:58.449Z</time>
+      </trkpt>
+      <trkpt lat="48.996919" lon="18.805016">
+        <ele>575.398200</ele>
+        <time>2025-04-01T10:40:01.942Z</time>
+      </trkpt>
+      <trkpt lat="48.997299" lon="18.804772">
+        <ele>575.398200</ele>
+        <time>2025-04-01T10:40:12.423Z</time>
+      </trkpt>
+      <trkpt lat="48.997355" lon="18.804769">
+        <ele>575.398200</ele>
+        <time>2025-04-01T10:40:13.764Z</time>
+      </trkpt>
+      <trkpt lat="48.997408" lon="18.804767">
+        <ele>575.398200</ele>
+        <time>2025-04-01T10:40:14.936Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

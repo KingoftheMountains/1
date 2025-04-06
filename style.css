@@ -1,0 +1,202 @@
+/* DEBUG: Resetting all elements */
+* {
+  box-sizing: border-box; /* DEBUG: Use border-box to include padding/border in element's total width/height */
+  margin: 0;              /* DEBUG: Remove default margin */
+  padding: 0;             /* DEBUG: Remove default padding */
+}
+
+/* DEBUG: Base styles for body and html */
+body, html {
+  font-family: 'Anton', sans-serif; /* DEBUG: Set the font family to Anton with fallback to sans-serif */
+  background: #fdf7ee;              /* DEBUG: Set background color to soft beige */
+  color: #111;                      /* DEBUG: Set default text color to near black */
+  height: 100%;                     /* DEBUG: Ensure full viewport height */
+  overflow-x: hidden;               /* DEBUG: Prevent horizontal scroll */
+}
+
+/* DEBUG: Background overlay settings */
+.background-overlay {
+  background: url("čistý.png") no-repeat center top; /* DEBUG: Set background image and position it at the top center */
+  background-size: cover;                         /* DEBUG: Scale background image to be fully visible */
+  background-color: #fdf7ee;                        /* DEBUG: Fallback background color */
+  width: 100%;                                      /* DEBUG: Full width of container */
+  min-height: 80vh;                                 /* DEBUG: Ensure visible height for layout */
+  padding: 0;                                       /* DEBUG: No padding */
+}
+
+/* DEBUG: Main header flex layout */
+.main-header {
+  background: rgba(243, 234, 220, 0);               /* DEBUG: Transparent background for header */
+  display: flex;                                    /* DEBUG: Use flexbox for layout */
+  flex-direction: column;                           /* DEBUG: Arrange children vertically */
+  align-items: center;                              /* DEBUG: Center children horizontally */
+  padding: 15px 20px;                               /* DEBUG: Add spacing inside header */
+  text-align: center;                               /* DEBUG: Center text alignment */
+}
+
+/* DEBUG: Centered logo flex container */
+.logo-wrap.centered-logo {
+  display: flex;                /* DEBUG: Use flex layout */
+  flex-direction: column;      /* DEBUG: Stack items vertically */
+  align-items: center;         /* DEBUG: Center items horizontally */
+}
+
+/* DEBUG: Logo icon size and spacing */
+.logo-icon {
+  height: 50px;                /* DEBUG: Fixed height for logo image */
+  margin-bottom: 5px;          /* DEBUG: Space below the image */
+}
+
+/* DEBUG: Logo title clickable link */
+.logo-title {
+  font-size: 4em;                      /* DEBUG: Large text for visibility */
+  font-weight: bold;                  /* DEBUG: Bold weight for strong appearance */
+  letter-spacing: 5px;                /* DEBUG: Extra spacing between letters */
+  color: #111;                        /* DEBUG: Dark text color */
+  text-decoration: none;              /* DEBUG: Remove underline from link */
+  display: inline-block;              /* DEBUG: Needed to apply transform or spacing */
+  cursor: pointer;                    /* DEBUG: Show pointer on hover */
+  transition: color 0.3s ease;        /* DEBUG: Smooth color change on hover */
+}
+
+/* DEBUG: Hover style for logo */
+.logo-title:hover {
+  color: #d64500;                     /* DEBUG: Change logo color on hover */
+  text-decoration: none;              /* DEBUG: Ensure underline stays off on hover */
+}
+
+/* DEBUG: Nav container layout */
+nav ul {
+  display: flex;                      /* DEBUG: Layout nav items in a row */
+  flex-wrap: wrap;                   /* DEBUG: Allow nav items to wrap if needed */
+  justify-content: center;           /* DEBUG: Center nav items horizontally */
+  list-style: none;                  /* DEBUG: Remove bullet points */
+  gap: 25px;                         /* DEBUG: Space between nav links */
+  margin-top: 10px;                  /* DEBUG: Margin above the nav */
+}
+
+/* DEBUG: Nav links styling */
+nav a {
+  color: #111;                        /* DEBUG: Default nav link color */
+  text-decoration: none;             /* DEBUG: Remove underline */
+  letter-spacing: 2px;               /* DEBUG: Slight spacing between characters */
+  transition: color 0.2s ease;       /* DEBUG: Smooth color change on hover */
+}
+
+/* DEBUG: Nav hover effect */
+nav a:hover {
+  color: #d64500;                    /* DEBUG: Change nav link color on hover */
+}
+
+/* DEBUG: Main content box */
+.content-box {
+  padding: 10px 20px;                               /* DEBUG: Inner spacing for content */
+  background: rgba(255, 255, 255, 0.5);             /* DEBUG: Semi-transparent white background */
+  max-width: 700px;                                 /* DEBUG: Limit max width for readability */
+  margin: 100px auto;                               /* DEBUG: Adjusted margin for consistent scaling on all pages */
+  border-radius: 12px;                              /* DEBUG: Rounded corners */
+  animation: fadeIn 1s ease-in;                     /* DEBUG: Fade-in animation */
+  transition: all 0.3s ease;                        /* DEBUG: Smooth visual changes */
+}
+
+/* DEBUG: Hero section alignment */
+.hero-text {
+  text-align: center;               /* DEBUG: Center text */
+  margin-bottom: 40px;              /* DEBUG: Space below the heading */
+}
+
+/* DEBUG: Hero heading size */
+.hero-text h1 {
+  font-size: 3em;                   /* DEBUG: Large font size for hero title */
+  margin-bottom: 20px;              /* DEBUG: Space below hero heading */
+}
+
+/* DEBUG: Call-to-action button */
+.cta-button {
+  background: #d64500;                            /* DEBUG: Button background color */
+  color: white;                                   /* DEBUG: Button text color */
+  padding: 14px 28px;                             /* DEBUG: Button size */
+  font-size: 1.1em;                               /* DEBUG: Font size for readability */
+  text-decoration: none;                          /* DEBUG: Remove underline */
+  border-radius: 8px;                             /* DEBUG: Rounded corners */
+  font-weight: bold;                              /* DEBUG: Bold button text */
+  transition: background 0.3s ease, transform 0.2s ease; /* DEBUG: Smooth transition effects */
+}
+
+/* DEBUG: CTA hover effect */
+.cta-button:hover {
+  background: #b83900;                            /* DEBUG: Darker color on hover */
+  transform: scale(1.05);                         /* DEBUG: Slight zoom on hover */
+}
+
+/* DEBUG: Info section layout */
+.info-boxes {
+  display: flex;                    /* DEBUG: Use flex layout */
+  flex-wrap: wrap;                 /* DEBUG: Allow wrapping of boxes */
+  justify-content: space-between; /* DEBUG: Even spacing between boxes */
+  gap: 20px;                       /* DEBUG: Gap between each box */
+}
+
+/* DEBUG: Info box design */
+.info-box {
+  flex: 1 1 45%;                               /* DEBUG: Flexible width, 45% of container */
+  background: #fff;                            /* DEBUG: White background */
+  padding: 20px;                               /* DEBUG: Inner spacing */
+  border-radius: 10px;                         /* DEBUG: Rounded corners */
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);      /* DEBUG: Subtle shadow */
+  animation: fadeIn 1s ease-in;               /* DEBUG: Fade-in animation */
+  transition: all 0.3s ease;                  /* DEBUG: Smooth transitions */
+}
+
+/* DEBUG: Form inputs/buttons */
+form input, form button {
+  display: block;                /* DEBUG: Stack form elements */
+  width: 100%;                   /* DEBUG: Full width elements */
+  padding: 10px;                 /* DEBUG: Inner spacing */
+  margin-top: 10px;              /* DEBUG: Space above each element */
+  font-family: inherit;          /* DEBUG: Match form font to body */
+  font-size: 1em;                /* DEBUG: Base font size */
+}
+
+/* DEBUG: Submit button style */
+form button {
+  background: #d64500;                        /* DEBUG: Button background */
+  color: white;                               /* DEBUG: Button text color */
+  border: none;                               /* DEBUG: No border */
+  cursor: pointer;                            /* DEBUG: Cursor indicates clickability */
+  font-weight: bold;                          /* DEBUG: Bold text */
+  margin-top: 20px;                           /* DEBUG: Space above button */
+  transition: background 0.3s ease, transform 0.2s ease; /* DEBUG: Smooth hover effects */
+}
+
+/* DEBUG: Button hover animation */
+form button:hover {
+  background: #b83900;          /* DEBUG: Darker color on hover */
+  transform: scale(1.05);       /* DEBUG: Slight zoom on hover */
+}
+
+/* DEBUG: Footer styling */
+footer {
+  text-align: center;                 /* DEBUG: Center footer text */
+  padding: 20px;                      /* DEBUG: Padding inside footer */
+  background: rgba(255, 255, 255, 0.9); /* DEBUG: Semi-transparent footer */
+  margin-top: 30px;                  /* DEBUG: Space above footer */
+  font-size: 0.9em;                  /* DEBUG: Slightly smaller text */
+}
+
+/* DEBUG: Countdown timer */
+#countdown {
+  font-size: 1.4em;             /* DEBUG: Larger font size */
+  color: #d64500;              /* DEBUG: Theme color */
+  margin-top: 10px;            /* DEBUG: Space above timer */
+}
+
+/* DEBUG: Enable smooth scroll on the page */
+html {
+  scroll-behavior: smooth;     /* DEBUG: Smooth scrolling effect for anchor links */
+}
+
+/* DEBUG: Keyframe animation for fade in */
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }  /* DEBUG: Start hidden and lower */
+  100% { opacity: 1; transform: translateY(0); }   /* DEBUG: End*

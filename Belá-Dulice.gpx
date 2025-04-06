@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gpx version="1.1" creator="https://www.komoot.de" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Road ride to Rozhľadňa na Kalníku</name>
+    <author>
+      <link href="https://www.komoot.de">
+        <text>komoot</text>
+        <type>text/html</type>
+      </link>
+    </author>
+  </metadata>
+  <trk>
+    <name>Road ride to Rozhľadňa na Kalníku</name>
+    <trkseg>
+      <trkpt lat="49.003480" lon="18.982190">
+        <ele>503.873895</ele>
+        <time>2025-04-01T10:26:07.391Z</time>
+      </trkpt>
+      <trkpt lat="49.004611" lon="18.982977">
+        <ele>506.691953</ele>
+        <time>2025-04-01T10:26:52.179Z</time>
+      </trkpt>
+      <trkpt lat="49.004945" lon="18.983239">
+        <ele>509.769626</ele>
+        <time>2025-04-01T10:27:11.045Z</time>
+      </trkpt>
+      <trkpt lat="49.005145" lon="18.983510">
+        <ele>511.962093</ele>
+        <time>2025-04-01T10:27:24.522Z</time>
+      </trkpt>
+      <trkpt lat="49.005400" lon="18.984185">
+        <ele>516.148691</ele>
+        <time>2025-04-01T10:27:51.119Z</time>
+      </trkpt>
+      <trkpt lat="49.005747" lon="18.985008">
+        <ele>521.748817</ele>
+        <time>2025-04-01T10:28:24.916Z</time>
+      </trkpt>
+      <trkpt lat="49.006149" lon="18.985874">
+        <ele>528.147875</ele>
+        <time>2025-04-01T10:28:59.382Z</time>
+      </trkpt>
+      <trkpt lat="49.006451" lon="18.986344">
+        <ele>532.116211</ele>
+        <time>2025-04-01T10:29:21.298Z</time>
+      </trkpt>
+      <trkpt lat="49.006869" lon="18.986674">
+        <ele>536.646290</ele>
+        <time>2025-04-01T10:29:46.497Z</time>
+      </trkpt>
+      <trkpt lat="49.007742" lon="18.986990">
+        <ele>546.181977</ele>
+        <time>2025-04-01T10:30:37.518Z</time>
+      </trkpt>
+      <trkpt lat="49.009433" lon="18.987423">
+        <ele>564.978595</ele>
+        <time>2025-04-01T10:32:19.935Z</time>
+      </trkpt>
+      <trkpt lat="49.009811" lon="18.987600">
+        <ele>569.418816</ele>
+        <time>2025-04-01T10:32:44.081Z</time>
+      </trkpt>
+      <trkpt lat="49.010107" lon="18.987939">
+        <ele>573.575934</ele>
+        <time>2025-04-01T10:33:06.759Z</time>
+      </trkpt>
+      <trkpt lat="49.010917" lon="18.990163">
+        <ele>590.318027</ele>
+        <time>2025-04-01T10:34:42.410Z</time>
+      </trkpt>
+      <trkpt lat="49.011074" lon="18.990377">
+        <ele>592.401882</ele>
+        <time>2025-04-01T10:34:52.345Z</time>
+      </trkpt>
+      <trkpt lat="49.011253" lon="18.990519">
+        <ele>592.401882</ele>
+        <time>2025-04-01T10:35:01.205Z</time>
+      </trkpt>
+      <trkpt lat="49.011807" lon="18.990863">
+        <ele>592.401882</ele>
+        <time>2025-04-01T10:35:22.595Z</time>
+      </trkpt>
+      <trkpt lat="49.011844" lon="18.990883">
+        <ele>592.401882</ele>
+        <time>2025-04-01T10:35:23.752Z</time>
+      </trkpt>
+      <trkpt lat="49.011910" lon="18.990931">
+        <ele>592.401882</ele>
+        <time>2025-04-01T10:35:25.766Z</time>
+      </trkpt>
+      <trkpt lat="49.011902" lon="18.990624">
+        <ele>592.401882</ele>
+        <time>2025-04-01T10:35:50.459Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
